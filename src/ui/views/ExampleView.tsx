@@ -7,7 +7,7 @@ const ExampleView: React.FC = (): React.ReactElement | null => {
     const context = useContext(ExampleContext);
 
     if (!context) {
-        return <p>Loading...</p>; // Manejo de contexto nulo o indefinido
+        return <p>Loading...</p>;
     }
 
     const { examples } = context;
